@@ -1,55 +1,55 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  default:
+  DVORAK:
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
+  - {t: '''', s: '"'}
+  - {t: ',', s: <}
+  - .
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
-  - A
-  - S
-  - D
+  - Y
+  - $$mdi:arrow-up-bold$$
   - F
   - G
+  - C
+  - R
+  - L
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-control$$
+  - A
+  - O
+  - E
+  - U
+  - I
   - $$mdi:arrow-down-bold$$
+  - D
   - H
+  - T
+  - N
+  - S
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: ;, s: ':'}
+  - Q
   - J
   - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
-  - Z
   - X
-  - C
-  - V
-  - B
   - $$mdi:arrow-left-bold$$
-  - N
+  - B
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
-  - $$mdi:keyboard-space$$
+  - W
+  - V
+  - Z
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:volume-off$$
   - LGUI
-  - lower
-  - {t: '$$mdi:keyboard-space$$', h: '3'}
+  - NUMBER
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', h: '3'}
-  - raise
+  - SYMBOL
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  lower:
+  NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -98,7 +98,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  raise:
+  SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -143,11 +143,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '$$mdi:keyboard-return$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  '3':
+  FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -190,9 +190,9 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
