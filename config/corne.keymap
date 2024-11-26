@@ -68,7 +68,7 @@
 &kp RCTRL       &kp A          &kp O       &kp E       &kp U  &kp I        &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
 &kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K  &kp X        &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
                                &kp C_MUTE  &kp LGUI    &mo 1  &kp ENTER    &kp RIGHT_ARROW  &mo 2  &kp SPACE  &kp LEFT_ALT
-                                                                           &kp ENTER
+                                                                           &bt BT_SEL 0
             >;
 
             label = "DVORAK";
