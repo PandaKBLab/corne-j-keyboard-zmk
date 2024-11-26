@@ -54,7 +54,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "DVORAK";
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |                ↑    |  Y  |  U   |  I  |  O  |  P  | BKSP |      &kp UP_ARROW 
@@ -64,14 +64,14 @@
             //                                                      enter
 
             bindings = <
-&kp TAB    &kp Q  &kp W      &kp E     &kp R  &kp T          &kp UP_ARROW     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&td0       &kp A  &kp S      &kp D     &kp F  &kp G          &kp DOWN_ARROW   &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X      &kp C     &kp V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                  &kp SPACE  &kp LGUI  &mo 1  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 3 ENTER  &mo 2  &kp RALT
-                                                             &kp ENTER
+&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P  &kp Y        &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
+&kp RCTRL       &kp A          &kp O       &kp E       &kp U  &kp I        &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K  &kp X        &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
+                               &kp C_MUTE  &kp LGUI    &mo 1  &kp ENTER    &kp RIGHT_ARROW  &mo 2  &kp SPACE  &kp LEFT_ALT
+                                                                           &kp ENTER
             >;
 
-            label = "QWERTY";
+            label = "DVORAK";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
