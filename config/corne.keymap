@@ -65,7 +65,7 @@
         };
 
         Caps {
-            bindings = <&caps_word>;
+            bindings = <&kp CAPS>;
             key-positions = <16 15>;
         };
 
