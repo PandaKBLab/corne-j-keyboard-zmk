@@ -40,7 +40,7 @@ layers:
   - V
   - Z
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:volume-off$$
+  - '[[DVORAK]]'
   - LGUI
   - {t: NUM-SYM, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -147,6 +147,55 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - CONTEXT MENU
+  '[[DVORAK]]':
+  - $$mdi:keyboard-tab$$
+  - {t: '''', s: '"'}
+  - {t: ',', s: <}
+  - .
+  - P
+  - Y
+  - RGB HUI
+  - F
+  - G
+  - C
+  - R
+  - L
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-control$$
+  - A
+  - O
+  - E
+  - U
+  - I
+  - RGB HUD
+  - D
+  - H
+  - T
+  - N
+  - S
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: ;, s: ':'}
+  - Q
+  - J
+  - K
+  - X
+  - RGB SPD
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - $$mdi:apple-keyboard-shift$$
+  - {type: held}
+  - LGUI
+  - {t: NUM-SYM, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - RGB SPI
+  - {t: FN, h: toggle}
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-option$$
+  - RGB TOG
 combos:
 - p: [22, 23]
   k: $$mdi:keyboard-esc$$
