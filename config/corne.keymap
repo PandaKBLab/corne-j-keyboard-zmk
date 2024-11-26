@@ -118,10 +118,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp PIPE      &kp AMPERSAND    &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp CARET    &kp TILDE               &kp PAGE_UP      &kp PLUS         &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
-&trans        &kp PERCENT      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp NON_US_BACKSLASH    &kp PAGE_DOWN    &kp SLASH        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &trans
-&kp QUESTION  &kp EXCLAMATION  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp DOLLAR   &kp GRAVE               &kp HOME         &kp MINUS        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
-                               &kp C_BACKLIGHT_TOGGLE  &trans                 &trans       &kp LEFT_SHIFT          &kp END          &kp RIGHT_SHIFT  &trans        &trans
+&kp PIPE      &kp AMPERSAND    &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp CARET    &kp TILDE               &kp PAGE_UP      &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
+&trans        &kp PERCENT      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp NON_US_BACKSLASH    &kp PAGE_DOWN    &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &trans
+&kp QUESTION  &kp EXCLAMATION  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp DOLLAR   &kp GRAVE               &kp HOME         &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
+                               &kp C_BACKLIGHT_TOGGLE  &trans                 &trans       &trans                  &kp END          &trans     &trans        &trans
                                                                                                                    &kp PRINTSCREEN
             >;
 
