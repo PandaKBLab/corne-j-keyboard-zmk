@@ -298,7 +298,7 @@ combos:
 - p: [22, 23]
   k: $$mdi:keyboard-esc$$
 - p: [16, 15]
-  k: $$mdi:alpha-w-box$$
+  k: $$mdi:apple-keyboard-caps$$
 - p: [34, 35]
   k: $$mdi:apple-keyboard-option$$
 - p: [30, 29]
