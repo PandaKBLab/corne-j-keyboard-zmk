@@ -85,15 +85,15 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5             &mmv MOVE_UP     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                         &kp C_MUTE      &trans        &trans        &trans             &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
-                                                                                        &mkp LCLK
+&kp PIPE      &kp AMPERSAND    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp TILDE               &mmv MOVE_UP     &kp PLUS       &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
+&trans        &kp PERCENT      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp NON_US_BACKSLASH    &mmv MOVE_DOWN   &kp SLASH      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &trans
+&kp QUESTION  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR   &kp GRAVE               &mmv MOVE_LEFT   &kp MINUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
+                               &mkp RCLK             &trans                 &trans       &trans                  &mmv MOVE_RIGHT  &kp RIGHT_GUI  &trans        &trans
+                                                                                                                 &mkp LCLK
             >;
 
-            label = "NUMBER";
-            sensor-bindings = <&scroll_encoder>;
+            label = "NUM-SYM";
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         raise_layer {
