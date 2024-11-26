@@ -45,7 +45,7 @@ layers:
   - {t: NUM-SYM, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - FN
+  - {t: FN, h: toggle}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - MENU
@@ -143,7 +143,20 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - CONTEXT MENU
+combos:
+- p: [22, 23]
+  k: $$mdi:keyboard-esc$$
+- p: [16, 15]
+  k: $$mdi:alpha-w-box$$
+- p: [34, 35]
+  k: $$mdi:apple-keyboard-option$$
+- p: [30, 29]
+  k: $$mdi:apple-keyboard-option$$
+- p: [28, 29]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [35, 36]
+  k: RIGHT GUI
