@@ -101,7 +101,7 @@
 &kp RCTRL       &kp A          &kp O       &kp E       &kp U   &kp I        &kp DOWN_ARROW   &kp D   &kp H      &kp T         &kp N  &kp S  &kp RCTRL
 &kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K   &kp X        &kp LEFT_ARROW   &kp B   &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
                                &kp C_MUTE  &kp LGUI    &tog 1  &kp ENTER    &kp RIGHT_ARROW  &tog 2  &kp SPACE  &kp LEFT_ALT
-                                                                            &kp C_MENU
+                                                                            &tog 3
             >;
 
             label = "DVORAK";
@@ -154,11 +154,11 @@
             label = "[DVORAK]";
             display-name = "DVORAK";
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P   &kp Y        &kp UP_ARROW     &kp F   &kp G      &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O       &kp E       &kp U   &kp I        &kp DOWN_ARROW   &kp D   &kp H      &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K   &kp X        &kp LEFT_ARROW   &kp B   &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &kp C_MUTE  &kp LGUI    &tog 1  &kp ENTER    &kp RIGHT_ARROW  &tog 2  &kp SPACE  &kp LEFT_ALT
-                                                                            &kp C_MENU
+&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P   &kp Y        &kp PAGE_UP    &kp F   &kp G      &kp C         &kp R  &kp L  &kp BSPC
+&kp RCTRL       &kp A          &kp O       &kp E       &kp U   &kp I        &kp PAGE_DOWN  &kp D   &kp H      &kp T         &kp N  &kp S  &kp RCTRL
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K   &kp X        &kp HOME       &kp B   &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
+                               &kp C_MUTE  &kp LGUI    &tog 1  &kp ENTER    &kp END        &tog 2  &kp SPACE  &kp LEFT_ALT
+                                                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
