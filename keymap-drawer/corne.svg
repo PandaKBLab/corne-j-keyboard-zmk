@@ -514,10 +514,9 @@ rect.held, rect.combo.held {
 <g transform="translate(542, 299) rotate(-30.0)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-38" width="40" height="68" class="key"/>
-<a href="#Bluetooth">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">Bluetooth</tspan></text>
-</a><text x="0" y="38" class="key hold">toggle</text>
-</g>
+<a href="#BLUETOOTH">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">BLUETOOTH</tspan></text>
+</a></g>
 <g transform="translate(610, 276) rotate(-30.0)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
@@ -531,8 +530,8 @@ rect.held, rect.combo.held {
 <g transform="translate(462, 84)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Principal_mod1">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">Principal…</tspan></text>
+<a href="#DVORAK">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">[DVORAK]</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
@@ -1159,8 +1158,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1216)" class="layer-Principal_mod1">
-<text x="0" y="28" class="label" id="Principal_mod1">Principal_mod1:</text>
+<g transform="translate(40, 1216)" class="layer-[DVORAK]">
+<text x="0" y="28" class="label" id="DVORAK">[DVORAK]:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 77)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1360,8 +1359,8 @@ rect.held, rect.combo.held {
 <g transform="translate(392, 210)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Principal_mod2">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">Principal…</tspan></text>
+<a href="#DVORAK">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">(DVORAK)</tspan></text>
 </a></g>
 <g transform="translate(252, 252)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1441,8 +1440,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1622)" class="layer-Principal_mod2">
-<text x="0" y="28" class="label" id="Principal_mod2">Principal_mod2:</text>
+<g transform="translate(40, 1622)" class="layer-(DVORAK)">
+<text x="0" y="28" class="label" id="DVORAK">(DVORAK):</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 77)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1731,8 +1730,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2027)" class="layer-Bluetooth">
-<text x="0" y="28" class="label" id="Bluetooth">Bluetooth:</text>
+<g transform="translate(40, 2027)" class="layer-BLUETOOTH">
+<text x="0" y="28" class="label" id="BLUETOOTH">BLUETOOTH:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 77)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1954,10 +1953,9 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(542, 299) rotate(-30.0)" class="key trans keypos-44">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-38" width="40" height="68" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(542, 299) rotate(-30.0)" class="key held keypos-44">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-38" width="40" height="68" class="key held"/>
 </g>
 <g transform="translate(610, 276) rotate(-30.0)" class="key trans keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
