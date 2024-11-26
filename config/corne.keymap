@@ -151,28 +151,24 @@
         };
 
         Principal_mod1 {
-            label = "[DVORAK]";
-            display-name = "DVORAK";
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA  &kp PERIOD  &kp P   &kp Y        &kp PAGE_UP    &kp F   &kp G      &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O      &kp E       &kp U   &kp I        &kp PAGE_DOWN  &kp D   &kp H      &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J       &kp K   &kp X        &kp HOME       &kp B   &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &mo 4      &kp LGUI    &tog 1  &kp ENTER    &kp END        &tog 2  &kp SPACE  &kp LEFT_ALT
-                                                                           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_UP    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME       &trans  &trans  &trans  &trans  &trans  &trans
+                &mo 4   &trans  &trans  &trans    &kp END        &trans  &trans  &trans
+                                                  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         Principal_mod2 {
-            label = "[[DVORAK]]";
-            display-name = "[[DVORAK]]";
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA  &kp PERIOD  &kp P   &kp Y        &rgb_ug RGB_HUI  &kp F   &kp G      &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O      &kp E       &kp U   &kp I        &rgb_ug RGB_HUD  &kp D   &kp H      &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J       &kp K   &kp X        &rgb_ug RGB_SPD  &kp B   &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &trans     &kp LGUI    &tog 1  &kp ENTER    &rgb_ug RGB_SPI  &tog 2  &kp SPACE  &kp LEFT_ALT
-                                                                           &rgb_ug RGB_TOG
+&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_HUI  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_HUD  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_SAD  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &rgb_ug RGB_SAI  &trans  &trans  &trans
+                                                  &rgb_ug RGB_TOG
             >;
 
             sensor-bindings = <&rgb_encoder>;
