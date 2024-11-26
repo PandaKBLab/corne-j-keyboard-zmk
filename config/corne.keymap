@@ -21,6 +21,13 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
+        bt_profile: bt_profile {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "BT_PROFILE";
+            #sensor-binding-cells = <0>;
+            bindings = <&bt BT_NXT>, <&bt BT_PRV>;
+        };
+
         mmv {
             acceleration-exponent = <1>;      // 1
             time-to-max-speed-ms = <900>;    // 40
@@ -81,6 +88,16 @@
             bindings = <&kp RIGHT_GUI>;
             key-positions = <35 36>;
         };
+
+        Menu {
+            bindings = <&kp C_MENU>;
+            key-positions = <2 3>;
+        };
+
+        Contex_menu {
+            bindings = <&kp K_CONTEXT_MENU>;
+            key-positions = <9 10>;
+        };
     };
 
     keymap {
@@ -97,11 +114,11 @@
             //                                                      enter
 
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P   &kp Y        &kp UP_ARROW     &kp F   &kp G      &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O       &kp E       &kp U   &kp I        &kp DOWN_ARROW   &kp D   &kp H      &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K   &kp X        &kp LEFT_ARROW   &kp B   &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &kp C_MUTE  &kp LGUI    &tog 1  &kp ENTER    &kp RIGHT_ARROW  &tog 2  &kp SPACE  &kp LEFT_ALT
-                                                                            &tog 3
+&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P   &kp Y          &kp UP_ARROW     &kp F   &kp G      &kp C         &kp R  &kp L  &kp BSPC
+&kp RCTRL       &kp A          &kp O       &kp E       &kp U   &kp I          &kp DOWN_ARROW   &kp D   &kp H      &kp T         &kp N  &kp S  &kp RCTRL
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K   &kp X          &kp LEFT_ARROW   &kp B   &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
+                               &kp C_MUTE  &kp LGUI    &tog 2  &lt 1 ENTER    &kp RIGHT_ARROW  &tog 5  &kp SPACE  &kp LEFT_ALT
+                                                                              &tog 3
             >;
 
             label = "DVORAK";
@@ -118,15 +135,15 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp PIPE      &kp AMPERSAND    &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp CARET    &kp TILDE               &kp PAGE_UP      &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
-&trans        &kp PERCENT      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp NON_US_BACKSLASH    &kp PAGE_DOWN    &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &trans
-&kp QUESTION  &kp EXCLAMATION  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp DOLLAR   &kp GRAVE               &kp HOME         &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
-                               &kp C_BACKLIGHT_TOGGLE  &trans                 &trans       &trans                  &kp END          &trans     &trans        &trans
-                                                                                                                   &kp PRINTSCREEN
+&kp PIPE      &kp AMPERSAND    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp TILDE               &trans  &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
+&trans        &kp PERCENT      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp NON_US_BACKSLASH    &trans  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &trans
+&kp QUESTION  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR   &kp GRAVE               &trans  &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
+                               &trans                &trans                 &trans       &trans                  &trans  &trans     &trans        &trans
+                                                                                                                 &trans
             >;
 
             label = "NUM-SYM";
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         Functions {
@@ -139,11 +156,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&rgb_ug RGB_EFR  &bt BT_SEL 3     &bt BT_SEL 2     &bt BT_SEL 1      &bt BT_SEL 0  &bt BT_CLR    &mmv MOVE_UP        &kp K_CALC             &kp F9  &kp F10  &kp F11  &kp F12  &rgb_ug RGB_EFF
-&trans           &rgb_ug RGB_BRI  &mkp LCLK        &mkp MCLK         &mkp RCLK     &mkp MB4      &mmv MOVE_DOWN      &kp C_AL_FILE_BROWSER  &kp F5  &kp F6   &kp F7   &kp F8   &trans
-&trans           &rgb_ug RGB_BRD  &kp C_PREV       &kp C_PLAY_PAUSE  &kp C_NEXT    &mkp MB5      &mmv MOVE_LEFT      &kp C_AL_WWW           &kp F1  &kp F2   &kp F3   &kp F4   &trans
-                                  &rgb_ug RGB_TOG  &trans            &trans        &trans        &mmv MOVE_RIGHT     &trans                 &trans  &trans
-                                                                                                 &kp K_CONTEXT_MENU
+&trans  &trans  &trans      &trans            &trans      &trans      &mmv MOVE_UP     &kp K_CALC             &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &none   &mkp LCLK   &mkp MCLK         &mkp RCLK   &mkp MB4    &mmv MOVE_DOWN   &kp C_AL_FILE_BROWSER  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &none   &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &mkp MB5    &mmv MOVE_LEFT   &kp C_AL_WWW           &kp F1  &kp F2   &kp F3   &kp F4   &trans
+                &none       &trans            &trans      &trans      &mmv MOVE_RIGHT  &trans                 &trans  &trans
+                                                                      &trans
             >;
 
             label = "FN";
@@ -172,6 +189,18 @@
             >;
 
             sensor-bindings = <&rgb_encoder>;
+        };
+
+        Bluetooth {
+            bindings = <
+&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &bt BT_CLR  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                      &trans
+            >;
+
+            sensor-bindings = <&bt_profile>;
         };
     };
 };
