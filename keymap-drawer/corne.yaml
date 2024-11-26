@@ -7,7 +7,7 @@ layers:
   - .
   - P
   - Y
-  - $$mdi:arrow-up-bold$$
+  - PgUp
   - F
   - G
   - C
@@ -20,7 +20,7 @@ layers:
   - E
   - U
   - I
-  - $$mdi:arrow-down-bold$$
+  - PgDn
   - D
   - H
   - T
@@ -33,7 +33,7 @@ layers:
   - J
   - K
   - X
-  - $$mdi:arrow-left-bold$$
+  - HOME
   - B
   - M
   - W
@@ -44,11 +44,11 @@ layers:
   - LGUI
   - {t: NUM-SYM, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - END
   - {t: FN, h: toggle}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - MENU
+  - {t: '$$mdi:transfer$$', type: trans}
   NUM-SYM:
   - '|'
   - '&'
