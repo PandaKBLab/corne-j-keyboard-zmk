@@ -86,7 +86,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Principal {
             display-name = "DVORAK";
 
             // --------------------------------------------------------------------------------
@@ -108,7 +108,7 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        lower_layer {
+        Numbers_and_symbols {
             display-name = "NUMBER";
 
             // -----------------------------------------------------------------------------------------
@@ -129,7 +129,7 @@
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
-        raise_layer {
+        Functions {
             display-name = "SYMBOL";
 
             // -----------------------------------------------------------------------------------------
