@@ -114,10 +114,10 @@
             //                                                      enter
 
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P   &kp Y          &kp UP_ARROW     &kp F   &kp G      &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O       &kp E       &kp U   &kp I          &kp DOWN_ARROW   &kp D   &kp H      &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K   &kp X          &kp LEFT_ARROW   &kp B   &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &kp C_MUTE  &kp LGUI    &tog 2  &lt 1 ENTER    &kp RIGHT_ARROW  &tog 5  &kp SPACE  &kp LEFT_ALT
+&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P   &kp Y          &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
+&kp RCTRL       &kp A          &kp O       &kp E       &kp U   &kp I          &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K   &kp X          &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
+                               &kp C_MUTE  &kp LGUI    &tog 2  &lt 1 ENTER    &kp RIGHT_ARROW  &mo 5  &kp SPACE  &kp LEFT_ALT
                                                                               &tog 3
             >;
 
@@ -164,7 +164,7 @@
             >;
 
             label = "FN";
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         Principal_mod1 {
@@ -177,6 +177,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            label = "[DVORAK]";
         };
 
         Principal_mod2 {
@@ -189,6 +190,7 @@
             >;
 
             sensor-bindings = <&rgb_encoder>;
+            label = "(DVORAK)";
         };
 
         Bluetooth {
@@ -201,6 +203,7 @@
             >;
 
             sensor-bindings = <&bt_profile>;
+            label = "BLUETOOTH";
         };
     };
 };
