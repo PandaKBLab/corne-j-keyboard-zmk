@@ -48,7 +48,7 @@ layers:
   - SYMBOL
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
