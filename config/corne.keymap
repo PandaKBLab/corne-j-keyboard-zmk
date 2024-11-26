@@ -2,6 +2,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -26,6 +27,13 @@
             label = "BT_PROFILE";
             #sensor-binding-cells = <0>;
             bindings = <&bt BT_NXT>, <&bt BT_PRV>;
+        };
+
+        scroll_user: scroll_user {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "SCROLL_USER";
+            #sensor-binding-cells = <0>;
+            bindings = <&kt K_SCROLL_UP>, <&kp K_SCROLL_DOWN>;
         };
 
         mmv {
@@ -164,7 +172,7 @@
             >;
 
             label = "FN";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_user>;
         };
 
         Principal_mod1 {
