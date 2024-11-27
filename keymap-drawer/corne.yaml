@@ -42,8 +42,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - LGUI
-  - {t: '$$mdi:keyboard-return$$', h: NUM-SYM}
-  - FN
+  - NUM-SYM
+  - {t: '$$mdi:keyboard-return$$', h: FN}
   - $$mdi:arrow-right-bold$$
   - BLUETOOTH
   - $$mdi:keyboard-space$$
