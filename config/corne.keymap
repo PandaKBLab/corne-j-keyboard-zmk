@@ -206,4 +206,18 @@
             label = "BLUETOOTH";
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        Mod_1 {
+            if-layers = <0>;
+            then-layer = <3>;
+        };
+
+        Mod_2 {
+            if-layers = <3>;
+            then-layer = <4>;
+        };
+    };
 };
