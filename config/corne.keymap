@@ -114,11 +114,11 @@
             //                                                      enter
 
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P        &kp Y     &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O       &kp E       &kp U        &kp I     &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K        &kp X     &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &kp C_MUTE  &kp LGUI    &lt 1 ENTER  &tog 2    &kp RIGHT_ARROW  &mo 5  &kp SPACE  &kp LEFT_ALT
-                                                                              &tog 3
+&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P        &kp Y    &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
+&kp RCTRL       &kp A          &kp O       &kp E       &kp U        &kp I    &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K        &kp X    &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
+                               &kp C_MUTE  &kp LGUI    &lt 1 ENTER  &mo 2    &kp RIGHT_ARROW  &mo 5  &kp SPACE  &kp LEFT_ALT
+                                                                             &tog 3
             >;
 
             label = "DVORAK";
@@ -156,11 +156,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &none  &none       &trans            &trans      &trans      &mmv MOVE_UP     &kp K_CALC             &kp F9  &kp F10  &kp F11  &kp F12  &trans
-&trans  &none  &mkp LCLK   &mkp MCLK         &mkp RCLK   &mkp MB4    &mmv MOVE_DOWN   &kp C_AL_FILE_BROWSER  &kp F5  &kp F6   &kp F7   &kp F8   &trans
-&trans  &none  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &mkp MB5    &mmv MOVE_LEFT   &kp C_AL_WWW           &kp F1  &kp F2   &kp F3   &kp F4   &trans
-               &none       &trans            &trans      &trans      &mmv MOVE_RIGHT  &trans                 &trans  &trans
-                                                                     &trans
+&trans  &none  &none           &trans            &trans      &trans      &mmv MOVE_UP     &kp K_CALC             &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &none  &mkp LCLK       &mkp MCLK         &mkp RCLK   &mkp MB4    &mmv MOVE_DOWN   &kp C_AL_FILE_BROWSER  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &none  &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT  &mkp MB5    &mmv MOVE_LEFT   &kp C_AL_WWW           &kp F1  &kp F2   &kp F3   &kp F4   &trans
+               &none           &trans            &trans      &trans      &mmv MOVE_RIGHT  &trans                 &trans  &trans
+                                                                         &trans
             >;
 
             label = "FN";
