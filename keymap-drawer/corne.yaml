@@ -100,8 +100,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   FN:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&msc SCROLL_UP'
-  - '&msc SCROLL_DOWN'
+  - SCROLL UP
+  - SCROLL DOWN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
