@@ -114,10 +114,10 @@
             //                                                      enter
 
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P        &kp Y    &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O       &kp E       &kp U        &kp I    &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K        &kp X    &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &kp C_MUTE  &kp LGUI    &lt 1 ENTER  &mo 2    &kp RIGHT_ARROW  &mo 5  &kp SPACE  &kp LEFT_ALT
+&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P  &kp Y          &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
+&kp RCTRL       &kp A          &kp O       &kp E       &kp U  &kp I          &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K  &kp X          &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
+                               &kp C_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &mo 5  &kp SPACE  &kp LEFT_ALT
                                                                              &tog 3
             >;
 
