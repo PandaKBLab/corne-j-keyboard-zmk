@@ -43,7 +43,7 @@ layers:
   - $$mdi:volume-off$$
   - LGUI
   - {t: '$$mdi:keyboard-return$$', h: NUM-SYM}
-  - {t: FN, h: toggle}
+  - FN
   - $$mdi:arrow-right-bold$$
   - BLUETOOTH
   - $$mdi:keyboard-space$$
@@ -127,9 +127,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:skip-previous$$
+  - PREVIOUS
   - PLAY PAUSE
-  - $$mdi:skip-next$$
+  - NEXT
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - AL WWW
@@ -141,7 +141,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
