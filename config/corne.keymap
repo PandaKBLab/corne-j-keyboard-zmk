@@ -156,11 +156,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &msc SCROLL_UP  &msc SCROLL_DOWN  &trans            &trans      &trans      &mmv MOVE_UP     &kp K_CALC             &kp F9  &kp F10  &kp F11  &kp F12  &trans
-&trans  &none           &mkp LCLK         &mkp MCLK         &mkp RCLK   &mkp MB4    &mmv MOVE_DOWN   &kp C_AL_FILE_BROWSER  &kp F5  &kp F6   &kp F7   &kp F8   &trans
-&trans  &none           &kp C_PREV        &kp C_PLAY_PAUSE  &kp C_NEXT  &mkp MB5    &mmv MOVE_LEFT   &kp C_AL_WWW           &kp F1  &kp F2   &kp F3   &kp F4   &trans
-                        &none             &trans            &trans      &trans      &mmv MOVE_RIGHT  &trans                 &trans  &trans
-                                                                                    &trans
+&trans  &kp K_SCROLL_UP  &kp K_SCROLL_DOWN  &trans            &trans      &trans      &mmv MOVE_UP     &kp K_CALC             &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &none            &mkp LCLK          &mkp MCLK         &mkp RCLK   &mkp MB4    &mmv MOVE_DOWN   &kp C_AL_FILE_BROWSER  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &none            &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT  &mkp MB5    &mmv MOVE_LEFT   &kp C_AL_WWW           &kp F1  &kp F2   &kp F3   &kp F4   &trans
+                         &none              &trans            &trans      &trans      &mmv MOVE_RIGHT  &trans                 &trans  &trans
+                                                                                      &trans
             >;
 
             label = "FN";
