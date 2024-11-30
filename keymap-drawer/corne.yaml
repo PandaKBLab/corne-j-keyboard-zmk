@@ -45,10 +45,10 @@ layers:
   - Numeric
   - {t: '$$mdi:keyboard-return$$', h: Functions}
   - $$mdi:arrow-right-bold$$
-  - BLUETOOTH
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - {t: Dvorak, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   Numeric:
   - '~'
   - '?'
@@ -241,7 +241,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
