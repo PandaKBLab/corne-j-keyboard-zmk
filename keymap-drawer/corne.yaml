@@ -56,33 +56,33 @@ layers:
   - '}'
   - ^
   - '|'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PgUp
   - +
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - '*'
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'AGr+ ?', h: '$$mdi:apple-keyboard-control$$'}
   - '%'
   - (
   - )
   - '@'
   - \
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PgDn
   - {t: /, s: '?'}
   - '4'
   - {t: '5', s: '%'}
   - '6'
   - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - {t: AGr+ 1, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
   - '!'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $
   - '&'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - HOME
   - {t: '-', s: _}
   - '1'
   - '2'
@@ -93,7 +93,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - END
   - AGr+ ?
   - AGr+ 1
   - {t: '$$mdi:minus-circle-outline$$', type: none}
