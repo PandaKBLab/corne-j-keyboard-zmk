@@ -103,7 +103,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Principal {
+        Default {
             display-name = "DVORAK";
 
             // --------------------------------------------------------------------------------
@@ -121,7 +121,7 @@
                                                                              &tog 3
             >;
 
-            label = "DVORAK";
+            label = "Dvorak";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -142,7 +142,7 @@
                                                                                                            &none
             >;
 
-            label = "NUM-SYM";
+            label = "Numeric";
             sensor-bindings = <&scroll_encoder>;
         };
 
