@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Functions}
   - $$mdi:arrow-right-bold$$
   - Scroll
-  - {t: '$$mdi:keyboard-space$$', h: BLUETOOTH}
+  - {t: '$$mdi:keyboard-space$$', h: Bluetooth}
   - $$mdi:apple-keyboard-option$$
   - {t: Config, h: toggle}
   Numeric:
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  BLUETOOTH:
+  Bluetooth:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

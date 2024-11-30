@@ -526,8 +526,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#BLUETOOTH">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">BLUETOOTH</tspan></text>
+<a href="#Bluetooth">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">Bluetooth</tspan></text>
 </a></g>
 <g transform="translate(672, 252)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1420,8 +1420,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1622)" class="layer-BLUETOOTH">
-<text x="0" y="28" class="label" id="BLUETOOTH">BLUETOOTH:</text>
+<g transform="translate(40, 1622)" class="layer-Bluetooth">
+<text x="0" y="28" class="label" id="Bluetooth">Bluetooth:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 77)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
