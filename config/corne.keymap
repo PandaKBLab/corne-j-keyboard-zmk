@@ -60,6 +60,31 @@
             bindings = <&vol_bri_up>, <&vol_bri_down>;
         };
 
+        arrow_pag_up: arrow_pag_up {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ARROW_PAG_UP";
+            bindings = <&kp UP_ARROW>, <&kp PAGE_UP>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+        };
+
+        arrow_pg_down: arrow_pg_down {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ARROW_PG_DOWN";
+            bindings = <&kp DOWN_ARROW>, <&kp PAGE_DOWN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+        };
+
+        arrow_pg_scroll: arrow_pg_scroll {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ARROW_PG_SCROLL";
+            #sensor-binding-cells = <0>;
+            bindings = <&arrow_pag_up>, <&arrow_pg_down>;
+        };
+
         mmv {
             acceleration-exponent = <1>;      // 1
             time-to-max-speed-ms = <900>;    // 40
@@ -201,14 +226,14 @@
 
         Scroll {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-              &none  &none  &none  &none    &none  &none  &none  &none
-                                            &none
+&none  &none  &none          &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none          &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none          &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+              &kp RIGHT_ALT  &none  &none  &none    &none  &none  &none  &none
+                                                    &none
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&arrow_pg_scroll>;
             label = "Scroll";
         };
 
