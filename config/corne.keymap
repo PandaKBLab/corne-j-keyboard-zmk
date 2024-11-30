@@ -41,7 +41,7 @@
             bindings = <&kp C_VOLUME_UP>, <&kp C_BRIGHTNESS_INC>;
 
             #binding-cells = <0>;
-            mods = <(MOD_RALT)>;
+            mods = <(MOD_RCTL)>;
         };
 
         vol_bri_down: vol_bri_down {
@@ -50,7 +50,7 @@
             bindings = <&kp C_VOLUME_DOWN>, <&kp C_BRIGHTNESS_DEC>;
 
             #binding-cells = <0>;
-            mods = <(MOD_RALT)>;
+            mods = <(MOD_RCTL)>;
         };
 
         vol_bri_encoder: vol_bri_encoder {
@@ -66,23 +66,61 @@
             bindings = <&kp UP_ARROW>, <&kp PAGE_UP>;
 
             #binding-cells = <0>;
-            mods = <(MOD_RALT)>;
+            mods = <(MOD_LALT)>;
         };
 
-        arrow_pg_down: arrow_pg_down {
+        arrow_pag_down: arrow_pag_down {
             compatible = "zmk,behavior-mod-morph";
-            label = "ARROW_PG_DOWN";
+            label = "ARROW_PAG_DOWN";
             bindings = <&kp DOWN_ARROW>, <&kp PAGE_DOWN>;
 
             #binding-cells = <0>;
-            mods = <(MOD_RALT)>;
+            mods = <(MOD_LALT)>;
         };
 
-        arrow_pg_scroll: arrow_pg_scroll {
+        arrow_pag_up_arrow_right: arrow_pag_up_arrow_right {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ARROW_PAG_UP_ARROW_RIGHT";
+            bindings = <&arrow_pag_up>, <&kp RIGHT_ARROW>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT)>;
+        };
+
+        arrow_pag_down_arrow_left: arrow_pag_down_arrow_left {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ARROW_PAG_DOWN_ARROW_LEFT";
+            bindings = <&arrow_pag_down>, <&kp LEFT_ARROW>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT)>;
+        };
+
+        arrow_pag_up_arrow_right_in: arrow_pag_up_arrow_right_in {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ARROW_PAG_UP_ARROW_RIGHT_IN";
+            bindings = <&arrow_pag_up_arrow_right>, <&kp RC(EQUAL)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RCTL)>;
+        };
+
+        arrow_pag_down_arrow_left_out: arrow_pag_down_arrow_left_out {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ARROW_PAG_DOWN_ARROW_LEFT_OUT";
+            bindings = <&arrow_pag_down_arrow_left>, <&kp RC(MINUS)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RCTL)>;
+        };
+
+        arrow_pag_zoom_encoder: arrow_pag_zoom_encoder {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "ARROW_PG_SCROLL";
+            label = "ARROW_PAG_ZOOM_ENCODER";
             #sensor-binding-cells = <0>;
-            bindings = <&arrow_pag_up>, <&arrow_pg_down>;
+            bindings =
+                <&arrow_pag_up_arrow_right_in>,
+                <&arrow_pag_down_arrow_left_out>;
         };
 
         mmv {
@@ -171,11 +209,11 @@
             //                                                      enter
 
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA             &kp PERIOD  &kp P  &kp Y          &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O                 &kp E       &kp U  &kp I          &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q                 &kp J       &kp K  &kp X          &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &mt RIGHT_ALT K_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &none  &kp SPACE  &kp LEFT_ALT
-                                                                                       &none
+&kp TAB         &kp SQT        &kp COMMA            &kp PERIOD  &kp P  &kp Y          &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
+&kp RCTRL       &kp A          &kp O                &kp E       &kp U  &kp I          &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q                &kp J       &kp K  &kp X          &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
+                               &mt LEFT_ALT K_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &none  &kp SPACE  &kp LEFT_ALT
+                                                                                      &none
             >;
 
             label = "Dvorak";
@@ -226,14 +264,14 @@
 
         Scroll {
             bindings = <
-&none  &none  &none          &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none          &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none          &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-              &kp RIGHT_ALT  &none  &none  &none    &none  &none  &none  &none
+&none   &none  &none         &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&trans  &none  &none         &none  &none  &none    &none  &none  &none  &none  &none  &none  &trans
+&trans  &none  &none         &none  &none  &none    &none  &none  &none  &none  &none  &none  &trans
+               &kp LEFT_ALT  &none  &none  &none    &none  &none  &none  &none
                                                     &none
             >;
 
-            sensor-bindings = <&arrow_pg_scroll>;
+            sensor-bindings = <&arrow_pag_zoom_encoder>;
             label = "Scroll";
         };
 
