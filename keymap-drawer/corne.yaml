@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  DVORAK:
+  Dvorak:
   - $$mdi:keyboard-tab$$
   - {t: '''', s: '"'}
   - {t: ',', s: <}
@@ -42,14 +42,14 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - LGUI
-  - NUM-SYM
+  - Numeric
   - {t: '$$mdi:keyboard-return$$', h: FN}
   - $$mdi:arrow-right-bold$$
   - BLUETOOTH
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '[DVORAK]', h: toggle}
-  NUM-SYM:
+  Numeric:
   - '~'
   - '?'
   - '{'
