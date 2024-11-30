@@ -278,7 +278,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none   &kp INSERT  &kp K_PREVIOUS         &kp K_PLAY_PAUSE  &kp K_NEXT    &kp PRINTSCREEN    &mmv MOVE_UP     &email_1  &kp F9     &kp F10  &kp F11  &kp F12  &none
+&none   &kp INSERT  &kp C_PREVIOUS         &kp C_PLAY_PAUSE  &kp C_NEXT    &kp PRINTSCREEN    &mmv MOVE_UP     &email_1  &kp F9     &kp F10  &kp F11  &kp F12  &none
 &trans  &mkp MB4    &mkp LCLK              &mkp MCLK         &mkp RCLK     &mkp MB5           &mmv MOVE_DOWN   &email_2  &kp F5     &kp F6   &kp F7   &kp F8   &trans
 &trans  &none       &kp C_AL_FILE_BROWSER  &kp K_CALCULATOR  &kp C_AL_WWW  &none              &mmv MOVE_LEFT   &email_3  &kp F1     &kp F2   &kp F3   &kp F4   &trans
                     &none                  &trans            &none         &none              &mmv MOVE_RIGHT  &name     &name_rev  &trans
