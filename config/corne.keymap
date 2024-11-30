@@ -35,31 +35,6 @@
             bindings = <&none>, <&none>;
         };
 
-        vol_bri_up: vol_bri_up {
-            compatible = "zmk,behavior-mod-morph";
-            label = "VOL_BRI_UP";
-            bindings = <&kp C_VOLUME_UP>, <&kp C_BRIGHTNESS_INC>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
-        };
-
-        vol_bri_down: vol_bri_down {
-            compatible = "zmk,behavior-mod-morph";
-            label = "VOL_BRI_DOWN";
-            bindings = <&kp C_VOLUME_DOWN>, <&kp C_BRIGHTNESS_DEC>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
-        };
-
-        vol_bri_encoder: vol_bri_encoder {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "VOL_BRI_ENCODER";
-            #sensor-binding-cells = <0>;
-            bindings = <&vol_bri_up>, <&vol_bri_down>;
-        };
-
         arrow_pag_up: arrow_pag_up {
             compatible = "zmk,behavior-mod-morph";
             label = "ARROW_PAG_UP";
@@ -261,15 +236,15 @@
             //                                                      enter
 
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA        &kp PERIOD  &kp P  &kp Y          &kp UP_ARROW     &kp F  &kp G        &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O            &kp E       &kp U  &kp I          &kp DOWN_ARROW   &kp D  &kp H        &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q            &kp J       &kp K  &kp X          &kp LEFT_ARROW   &kp B  &kp M        &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &mt LALT K_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &mo 3  &lt 4 SPACE  &kp LEFT_ALT
-                                                                                  &to 5
+&kp TAB         &kp SQT        &kp COMMA     &kp PERIOD  &kp P  &kp Y          &kp UP_ARROW     &kp F  &kp G        &kp C         &kp R  &kp L  &kp BSPC
+&kp RCTRL       &kp A          &kp O         &kp E       &kp U  &kp I          &kp DOWN_ARROW   &kp D  &kp H        &kp T         &kp N  &kp S  &kp RCTRL
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q         &kp J       &kp K  &kp X          &kp LEFT_ARROW   &kp B  &kp M        &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
+                               &lt 6 K_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &mo 3  &lt 4 SPACE  &kp LEFT_ALT
+                                                                               &to 5
             >;
 
             label = "DVORAK";
-            sensor-bindings = <&vol_bri_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         Numbers_and_symbols {
@@ -351,6 +326,19 @@
 
             label = "CONFIG";
             sensor-bindings = <&rgb_encoder>;
+        };
+
+        Brightness {
+            bindings = <
+&none  &none  &none  &none  &none  &none    &kp C_BRIGHTNESS_MAXIMUM  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &kp C_BRIGHTNESS_MINIMUM  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none                     &none  &none  &none  &none  &none  &none
+              &none  &none  &none  &none    &none                     &none  &none  &none
+                                            &none
+            >;
+
+            label = "BRIGHTNESS";
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
     };
 
