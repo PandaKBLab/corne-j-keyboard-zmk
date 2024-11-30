@@ -51,7 +51,7 @@ layers:
   - {t: '[DVORAK]', h: toggle}
   NUM-SYM:
   - '|'
-  - '&'
+  - '?'
   - '{'
   - '}'
   - ^
@@ -76,7 +76,7 @@ layers:
   - '6'
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
+  - '&'
   - '!'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
