@@ -540,8 +540,8 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="747" y="100" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="159" y="100" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="747" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="686" y="152" width="28" height="26" class="combo"/>
@@ -552,23 +552,23 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="215" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="156" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="44" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
-<text x="756" y="165" class="combo tap">
-<tspan x="756" dy="-0.6em">RIGHT</tspan><tspan x="756" dy="1.2em">GUI</tspan>
+<rect rx="6" ry="6" x="686" y="96" width="28" height="26" class="combo"/>
+<text x="700" y="109" class="combo tap">
+<tspan x="700" dy="-0.6em">RIGHT</tspan><tspan x="700" dy="1.2em">GUI</tspan>
 </text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
-<text x="168" y="53" class="combo tap">MENU</text>
+<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
+<text x="168" y="109" class="combo tap">MENU</text>
 </g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
-<text x="756" y="53" class="combo tap">
-<tspan x="756" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="756" dy="1.2em" style="font-size: 86%">MENU</tspan>
+<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
+<text x="168" y="53" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="168" dy="1.2em" style="font-size: 86%">MENU</tspan>
 </text>
 </g>
 </g>
@@ -839,8 +839,8 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="747" y="100" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="159" y="100" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="747" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="686" y="152" width="28" height="26" class="combo"/>
@@ -851,23 +851,23 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="215" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="156" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="44" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
-<text x="756" y="165" class="combo tap">
-<tspan x="756" dy="-0.6em">RIGHT</tspan><tspan x="756" dy="1.2em">GUI</tspan>
+<rect rx="6" ry="6" x="686" y="96" width="28" height="26" class="combo"/>
+<text x="700" y="109" class="combo tap">
+<tspan x="700" dy="-0.6em">RIGHT</tspan><tspan x="700" dy="1.2em">GUI</tspan>
 </text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
-<text x="168" y="53" class="combo tap">MENU</text>
+<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
+<text x="168" y="109" class="combo tap">MENU</text>
 </g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
-<text x="756" y="53" class="combo tap">
-<tspan x="756" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="756" dy="1.2em" style="font-size: 86%">MENU</tspan>
+<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
+<text x="168" y="53" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="168" dy="1.2em" style="font-size: 86%">MENU</tspan>
 </text>
 </g>
 </g>
@@ -1134,8 +1134,8 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="747" y="100" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="159" y="100" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="747" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="686" y="152" width="28" height="26" class="combo"/>
@@ -1146,23 +1146,23 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="215" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="156" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="44" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
-<text x="756" y="165" class="combo tap">
-<tspan x="756" dy="-0.6em">RIGHT</tspan><tspan x="756" dy="1.2em">GUI</tspan>
+<rect rx="6" ry="6" x="686" y="96" width="28" height="26" class="combo"/>
+<text x="700" y="109" class="combo tap">
+<tspan x="700" dy="-0.6em">RIGHT</tspan><tspan x="700" dy="1.2em">GUI</tspan>
 </text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
-<text x="168" y="53" class="combo tap">MENU</text>
+<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
+<text x="168" y="109" class="combo tap">MENU</text>
 </g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
-<text x="756" y="53" class="combo tap">
-<tspan x="756" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="756" dy="1.2em" style="font-size: 86%">MENU</tspan>
+<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
+<text x="168" y="53" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="168" dy="1.2em" style="font-size: 86%">MENU</tspan>
 </text>
 </g>
 </g>
@@ -1415,8 +1415,8 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="747" y="100" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="159" y="100" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="747" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="686" y="152" width="28" height="26" class="combo"/>
@@ -1427,23 +1427,23 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="215" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="156" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="44" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
-<text x="756" y="165" class="combo tap">
-<tspan x="756" dy="-0.6em">RIGHT</tspan><tspan x="756" dy="1.2em">GUI</tspan>
+<rect rx="6" ry="6" x="686" y="96" width="28" height="26" class="combo"/>
+<text x="700" y="109" class="combo tap">
+<tspan x="700" dy="-0.6em">RIGHT</tspan><tspan x="700" dy="1.2em">GUI</tspan>
 </text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
-<text x="168" y="53" class="combo tap">MENU</text>
+<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
+<text x="168" y="109" class="combo tap">MENU</text>
 </g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
-<text x="756" y="53" class="combo tap">
-<tspan x="756" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="756" dy="1.2em" style="font-size: 86%">MENU</tspan>
+<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
+<text x="168" y="53" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="168" dy="1.2em" style="font-size: 86%">MENU</tspan>
 </text>
 </g>
 </g>
@@ -1696,8 +1696,8 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="747" y="100" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="159" y="100" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="747" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="686" y="152" width="28" height="26" class="combo"/>
@@ -1708,23 +1708,23 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="215" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="156" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="44" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
-<text x="756" y="165" class="combo tap">
-<tspan x="756" dy="-0.6em">RIGHT</tspan><tspan x="756" dy="1.2em">GUI</tspan>
+<rect rx="6" ry="6" x="686" y="96" width="28" height="26" class="combo"/>
+<text x="700" y="109" class="combo tap">
+<tspan x="700" dy="-0.6em">RIGHT</tspan><tspan x="700" dy="1.2em">GUI</tspan>
 </text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
-<text x="168" y="53" class="combo tap">MENU</text>
+<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
+<text x="168" y="109" class="combo tap">MENU</text>
 </g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
-<text x="756" y="53" class="combo tap">
-<tspan x="756" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="756" dy="1.2em" style="font-size: 86%">MENU</tspan>
+<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
+<text x="168" y="53" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="168" dy="1.2em" style="font-size: 86%">MENU</tspan>
 </text>
 </g>
 </g>
@@ -1987,8 +1987,8 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="747" y="100" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="159" y="100" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="747" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="686" y="152" width="28" height="26" class="combo"/>
@@ -1999,23 +1999,23 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="215" y="156" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="154" y="152" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="159" y="156" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="44" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="742" y="152" width="28" height="26" class="combo"/>
-<text x="756" y="165" class="combo tap">
-<tspan x="756" dy="-0.6em">RIGHT</tspan><tspan x="756" dy="1.2em">GUI</tspan>
+<rect rx="6" ry="6" x="686" y="96" width="28" height="26" class="combo"/>
+<text x="700" y="109" class="combo tap">
+<tspan x="700" dy="-0.6em">RIGHT</tspan><tspan x="700" dy="1.2em">GUI</tspan>
 </text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
-<text x="168" y="53" class="combo tap">MENU</text>
+<rect rx="6" ry="6" x="154" y="96" width="28" height="26" class="combo"/>
+<text x="168" y="109" class="combo tap">MENU</text>
 </g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="742" y="40" width="28" height="26" class="combo"/>
-<text x="756" y="53" class="combo tap">
-<tspan x="756" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="756" dy="1.2em" style="font-size: 86%">MENU</tspan>
+<rect rx="6" ry="6" x="154" y="40" width="28" height="26" class="combo"/>
+<text x="168" y="53" class="combo tap">
+<tspan x="168" dy="-0.6em" style="font-size: 86%">CONTEXT</tspan><tspan x="168" dy="1.2em" style="font-size: 86%">MENU</tspan>
 </text>
 </g>
 </g>

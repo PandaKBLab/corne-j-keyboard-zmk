@@ -297,17 +297,17 @@ layers:
 combos:
 - p: [22, 23]
   k: $$mdi:keyboard-esc$$
-- p: [16, 15]
+- p: [35, 36]
   k: $$mdi:apple-keyboard-caps$$
 - p: [34, 35]
   k: $$mdi:apple-keyboard-option$$
 - p: [30, 29]
   k: $$mdi:apple-keyboard-option$$
-- p: [28, 29]
-  k: $$mdi:backspace-reverse-outline$$
-- p: [35, 36]
-  k: RIGHT GUI
-- p: [2, 3]
-  k: MENU
 - p: [9, 10]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [21, 22]
+  k: RIGHT GUI
+- p: [15, 16]
+  k: MENU
+- p: [2, 3]
   k: CONTEXT MENU
