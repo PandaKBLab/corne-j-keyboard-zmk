@@ -135,11 +135,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp PIPE                &none  &kp PLUS          &kp N7            &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
-&trans     &kp PERCENT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp NON_US_BACKSLASH    &none  &kp SLASH         &kp NUMBER_4      &kp N5        &kp NUMBER_6  &kp N0        &trans
-&kp GRAVE  &kp EXCL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR   &kp AMPERSAND           &none  &kp MINUS         &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
-                         &none                 &none                  &none        &none                   &none  &kp RA(QUESTION)  &kp RA(NUMBER_1)  &none
-                                                                                                           &none
+&kp TILDE               &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp PIPE                &kp PAGE_UP    &kp PLUS          &kp N7            &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
+&mt LCTRL RA(QUESTION)  &kp PERCENT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp NON_US_BACKSLASH    &kp PAGE_DOWN  &kp SLASH         &kp NUMBER_4      &kp N5        &kp NUMBER_6  &kp N0        &mt RCTRL RA(NUMBER_1)
+&mt LEFT_SHIFT GRAVE    &kp EXCL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR   &kp AMPERSAND           &kp HOME       &kp MINUS         &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
+                                      &none                 &none                  &none        &none                   &kp END        &kp RA(QUESTION)  &kp RA(NUMBER_1)  &none
+                                                                                                                        &none
             >;
 
             label = "Numeric";
