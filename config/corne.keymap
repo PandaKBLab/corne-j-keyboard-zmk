@@ -238,6 +238,13 @@
             bindings = <&none &kp LS(J) &kp O &kp R &kp G &kp E &kp SPACE &kp LS(A) &kp L &kp E &kp J &kp A &kp N &kp D &kp R &kp O &kp SPACE &kp LS(M) &kp O &kp T &kp A &kp SPACE &kp LS(S) &kp O &kp S &kp A>;
             label = "NAME";
         };
+
+        name_rev: name_rev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(M) &kp O &kp T &kp A &kp SPACE &kp LS(S) &kp O &kp S &kp A &kp SPACE &kp LS(J) &kp O &kp R &kp G &kp E &kp SPACE &kp LS(A) &kp L &kp E &kp J &kp A &kp N &kp D &kp R &kp O>;
+            label = "NAME_REV";
+        };
     };
 
     keymap {
