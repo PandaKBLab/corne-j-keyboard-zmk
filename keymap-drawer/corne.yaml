@@ -50,12 +50,12 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '[DVORAK]', h: toggle}
   NUM-SYM:
-  - '|'
+  - '~'
   - '?'
   - '{'
   - '}'
   - ^
-  - '~'
+  - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - +
   - {t: '7', s: '&'}
@@ -76,12 +76,12 @@ layers:
   - '6'
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&'
+  - {t: '`', s: '~'}
   - '!'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $
-  - {t: '`', s: '~'}
+  - '&'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
   - '1'
