@@ -63,7 +63,7 @@ layers:
   - {t: '9', s: (}
   - '*'
   - {t: '=', s: +}
-  - {t: 'AGr+ ?', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: AGr+ /, h: '$$mdi:apple-keyboard-control$$', s: 'AGr+ ?'}
   - '%'
   - (
   - )
