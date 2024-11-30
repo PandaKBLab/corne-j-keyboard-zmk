@@ -103,7 +103,7 @@ layers:
   - Ins
   - PREVIOUS
   - PLAY PAUSE
-  - NEXT
+  - $$mdi:skip-next$$
   - PRINTSCREEN
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '&email_1'
