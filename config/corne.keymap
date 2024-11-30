@@ -209,10 +209,10 @@
             //                                                      enter
 
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA            &kp PERIOD  &kp P  &kp Y          &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O                &kp E       &kp U  &kp I          &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q                &kp J       &kp K  &kp X          &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &mt LEFT_ALT K_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &mo 3  &kp SPACE  &kp LEFT_ALT
+&kp TAB         &kp SQT        &kp COMMA            &kp PERIOD  &kp P  &kp Y          &kp UP_ARROW     &kp F  &kp G        &kp C         &kp R  &kp L  &kp BSPC
+&kp RCTRL       &kp A          &kp O                &kp E       &kp U  &kp I          &kp DOWN_ARROW   &kp D  &kp H        &kp T         &kp N  &kp S  &kp RCTRL
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q                &kp J       &kp K  &kp X          &kp LEFT_ARROW   &kp B  &kp M        &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
+                               &mt LEFT_ALT K_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &mo 3  &lt 4 SPACE  &kp LEFT_ALT
                                                                                       &none
             >;
 
@@ -277,15 +277,28 @@
 
         Bluetooth {
             bindings = <
-&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &bt BT_CLR  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-                                                      &trans
+&none  &none  &none       &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none       &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none       &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+              &bt BT_CLR  &none  &none  &none    &none  &none  &none  &none
+                                                 &none
             >;
 
             sensor-bindings = <&bt_encoder>;
             label = "BLUETOOTH";
+        };
+
+        Keyboard_configuration {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                  &trans
+            >;
+
+            label = "Config";
+            sensor-bindings = <&rgb_encoder>;
         };
     };
 
