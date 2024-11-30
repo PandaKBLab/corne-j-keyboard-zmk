@@ -217,6 +217,20 @@
             bindings = <&none &kp J &kp M &kp S &kp UNDER &kp A &kp L &kp E &kp J &kp A &kp N &kp D &kp R &kp O &kp AT &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL_1";
         };
+
+        email_2: email_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp E &kp L &kp M &kp I &kp N &kp E &kp C &kp R &kp A &kp F &kp T &kp I &kp A &kp N &kp O &kp N1 &kp N2 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL_2";
+        };
+
+        email_3: email_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N1 &kp N9 &kp N7 &kp O &kp N0 &kp N0 &kp N7 &kp N9 &kp N0 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL_3";
+        };
     };
 
     keymap {
