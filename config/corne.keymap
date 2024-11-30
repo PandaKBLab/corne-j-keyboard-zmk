@@ -321,7 +321,7 @@
 &none  &none  &none            &none  &none  &none    &rgb_ug RGB_SPD  &none  &none  &none  &none  &none  &none
 &none  &none  &none            &none  &none  &none    &rgb_ug RGB_EFR  &none  &none  &none  &none  &none  &none
               &rgb_ug RGB_TOG  &none  &none  &none    &rgb_ug RGB_EFF  &none  &none  &none
-                                                      &none
+                                                      &trans
             >;
 
             label = "CONFIG";
