@@ -299,15 +299,24 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [35, 36]
   k: $$mdi:apple-keyboard-caps$$
+  l: [Dvorak]
 - p: [34, 35]
   k: $$mdi:apple-keyboard-option$$
 - p: [30, 29]
   k: $$mdi:apple-keyboard-option$$
-- p: [9, 10]
+- p: [10, 9]
   k: $$mdi:backspace-reverse-outline$$
+  l: [Dvorak]
 - p: [21, 22]
   k: RIGHT GUI
 - p: [15, 16]
   k: MENU
+  l: [Dvorak]
 - p: [2, 3]
   k: CONTEXT MENU
+  l: [Dvorak]
+- p: [17, 16]
+  k: $$mdi:apple-keyboard-command$$
+- p: [28, 29]
+  k: $$mdi:alpha-w-box$$
+  l: [Dvorak]
