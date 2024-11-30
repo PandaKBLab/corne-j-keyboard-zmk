@@ -135,11 +135,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp PIPE       &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp TILDE               &trans  &kp PLUS          &kp N7            &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
-&trans         &kp PERCENT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp NON_US_BACKSLASH    &trans  &kp SLASH         &kp NUMBER_4      &kp N5        &kp NUMBER_6  &kp N0        &trans
-&kp AMPERSAND  &kp EXCL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR   &kp GRAVE               &trans  &kp MINUS         &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
-                             &trans                &trans                 &trans       &trans                  &trans  &kp RA(QUESTION)  &kp RA(NUMBER_1)  &trans
-                                                                                                               &trans
+&kp PIPE       &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp TILDE               &none  &kp PLUS          &kp N7            &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
+&trans         &kp PERCENT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp NON_US_BACKSLASH    &none  &kp SLASH         &kp NUMBER_4      &kp N5        &kp NUMBER_6  &kp N0        &trans
+&kp AMPERSAND  &kp EXCL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR   &kp GRAVE               &none  &kp MINUS         &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
+                             &none                 &none                  &none        &none                   &none  &kp RA(QUESTION)  &kp RA(NUMBER_1)  &none
+                                                                                                               &none
             >;
 
             label = "NUM-SYM";
