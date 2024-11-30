@@ -169,11 +169,11 @@
 
         Scroll {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &none            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &none            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &none            &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans    &rgb_ug RGB_SAI  &trans  &trans  &trans
-                                                  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+              &none  &none  &none  &none    &none  &none  &none  &none
+                                            &none
             >;
 
             sensor-bindings = <&rgb_encoder>;
