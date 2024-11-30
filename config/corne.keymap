@@ -41,7 +41,7 @@
             bindings = <&kp C_VOLUME_UP>, <&kp C_BRIGHTNESS_INC>;
 
             #binding-cells = <0>;
-            mods = <(MOD_RCTL)>;
+            mods = <(MOD_LALT)>;
         };
 
         vol_bri_down: vol_bri_down {
@@ -50,7 +50,7 @@
             bindings = <&kp C_VOLUME_DOWN>, <&kp C_BRIGHTNESS_DEC>;
 
             #binding-cells = <0>;
-            mods = <(MOD_RCTL)>;
+            mods = <(MOD_LALT)>;
         };
 
         vol_bri_encoder: vol_bri_encoder {
