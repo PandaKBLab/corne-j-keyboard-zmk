@@ -21,11 +21,43 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
-        bt_profile: bt_profile {
+        bt_encoder: bt_encoder {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "BT_PROFILE";
+            label = "BT_ENCODER";
             #sensor-binding-cells = <0>;
             bindings = <&bt BT_NXT>, <&bt BT_PRV>;
+        };
+
+        none_encoder: none_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "NONE_ENCODER";
+            #sensor-binding-cells = <0>;
+            bindings = <&none>, <&none>;
+        };
+
+        vol_bri_up: vol_bri_up {
+            compatible = "zmk,behavior-mod-morph";
+            label = "VOL_BRI_UP";
+            bindings = <&kp C_VOLUME_UP>, <&kp C_BRIGHTNESS_INC>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+        };
+
+        vol_bri_down: vol_bri_down {
+            compatible = "zmk,behavior-mod-morph";
+            label = "VOL_BRI_DOWN";
+            bindings = <&kp C_VOLUME_DOWN>, <&kp C_BRIGHTNESS_DEC>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+        };
+
+        vol_bri_encoder: vol_bri_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "VOL_BRI_ENCODER";
+            #sensor-binding-cells = <0>;
+            bindings = <&vol_bri_up>, <&vol_bri_down>;
         };
 
         mmv {
@@ -114,15 +146,15 @@
             //                                                      enter
 
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P  &kp Y          &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
-&kp RCTRL       &kp A          &kp O       &kp E       &kp U  &kp I          &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K  &kp X          &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &kp C_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &mo 4  &kp SPACE  &kp LEFT_ALT
-                                                                             &tog 0
+&kp TAB         &kp SQT        &kp COMMA             &kp PERIOD  &kp P  &kp Y          &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
+&kp RCTRL       &kp A          &kp O                 &kp E       &kp U  &kp I          &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q                 &kp J       &kp K  &kp X          &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
+                               &mt RIGHT_ALT K_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &mo 4  &kp SPACE  &kp LEFT_ALT
+                                                                                       &tog 0
             >;
 
             label = "Dvorak";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&vol_bri_encoder>;
         };
 
         Numbers_and_symbols {
@@ -143,7 +175,7 @@
             >;
 
             label = "Numeric";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&none_encoder>;
         };
 
         Functions {
@@ -164,7 +196,7 @@
             >;
 
             label = "Functions";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&none_encoder>;
         };
 
         Scroll {
@@ -176,7 +208,7 @@
                                             &none
             >;
 
-            sensor-bindings = <&rgb_encoder>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
             label = "Scroll";
         };
 
@@ -189,7 +221,7 @@
                                                       &trans
             >;
 
-            sensor-bindings = <&bt_profile>;
+            sensor-bindings = <&bt_encoder>;
             label = "BLUETOOTH";
         };
     };
