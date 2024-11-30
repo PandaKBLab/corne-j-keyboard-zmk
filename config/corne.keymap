@@ -337,7 +337,7 @@
             >;
 
             sensor-bindings = <&bt_encoder>;
-            label = "BLUETOOTH";
+            label = "Bluetooth";
         };
 
         Keyboard_configuration {
