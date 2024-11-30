@@ -161,7 +161,7 @@
 
         Caps {
             bindings = <&kp CAPS>;
-            key-positions = <16 15>;
+            key-positions = <35 36>;
         };
 
         RAlt_1 {
@@ -176,22 +176,22 @@
 
         Del {
             bindings = <&kp DELETE>;
-            key-positions = <28 29>;
+            key-positions = <9 10>;
         };
 
         Gui {
             bindings = <&kp RIGHT_GUI>;
-            key-positions = <35 36>;
+            key-positions = <21 22>;
         };
 
         Menu {
             bindings = <&kp C_MENU>;
-            key-positions = <2 3>;
+            key-positions = <15 16>;
         };
 
         Contex_menu {
             bindings = <&kp K_CONTEXT_MENU>;
-            key-positions = <9 10>;
+            key-positions = <2 3>;
         };
     };
 
