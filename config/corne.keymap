@@ -268,7 +268,7 @@
                                                                                       &to 5
             >;
 
-            label = "Dvorak";
+            label = "DVORAK";
             sensor-bindings = <&vol_bri_encoder>;
         };
 
@@ -289,7 +289,7 @@
                                                                                                                         &none
             >;
 
-            label = "Numeric";
+            label = "NUMERIC";
             sensor-bindings = <&none_encoder>;
         };
 
@@ -310,7 +310,7 @@
                                                                                               &none
             >;
 
-            label = "Functions";
+            label = "FN";
             sensor-bindings = <&none_encoder>;
         };
 
@@ -324,7 +324,7 @@
             >;
 
             sensor-bindings = <&arrow_pag_zoom_encoder>;
-            label = "Scroll";
+            label = "SCROLL";
         };
 
         Bluetooth {
@@ -337,7 +337,7 @@
             >;
 
             sensor-bindings = <&bt_encoder>;
-            label = "Bluetooth";
+            label = "BLUETOOTH";
         };
 
         Keyboard_configuration {
@@ -349,7 +349,7 @@
                                                       &trans
             >;
 
-            label = "Config";
+            label = "CONFIG";
             sensor-bindings = <&rgb_encoder>;
         };
     };
