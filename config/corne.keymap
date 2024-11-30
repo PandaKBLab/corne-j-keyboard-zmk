@@ -210,6 +210,15 @@
         };
     };
 
+    macros {
+        email_1: email_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp J &kp M &kp S &kp UNDER &kp A &kp L &kp E &kp J &kp A &kp N &kp D &kp R &kp O &kp AT &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL_1";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
