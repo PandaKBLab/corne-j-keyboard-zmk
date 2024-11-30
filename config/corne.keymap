@@ -117,8 +117,8 @@
 &kp TAB         &kp SQT        &kp COMMA   &kp PERIOD  &kp P  &kp Y          &kp UP_ARROW     &kp F  &kp G      &kp C         &kp R  &kp L  &kp BSPC
 &kp RCTRL       &kp A          &kp O       &kp E       &kp U  &kp I          &kp DOWN_ARROW   &kp D  &kp H      &kp T         &kp N  &kp S  &kp RCTRL
 &kp LEFT_SHIFT  &kp SEMICOLON  &kp Q       &kp J       &kp K  &kp X          &kp LEFT_ARROW   &kp B  &kp M      &kp W         &kp V  &kp Z  &kp RIGHT_SHIFT
-                               &kp C_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &mo 5  &kp SPACE  &kp LEFT_ALT
-                                                                             &tog 3
+                               &kp C_MUTE  &kp LGUI    &mo 1  &lt 2 ENTER    &kp RIGHT_ARROW  &mo 4  &kp SPACE  &kp LEFT_ALT
+                                                                             &tog 0
             >;
 
             label = "Dvorak";
@@ -156,41 +156,28 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &none            &none           &none             &none       &trans      &mmv MOVE_UP     &kp K_CALC             &kp F9  &kp F10  &kp F11  &kp F12  &trans
-&trans  &kp PRINTSCREEN  &mkp LCLK       &mkp MCLK         &mkp RCLK   &mkp MB4    &mmv MOVE_DOWN   &kp C_AL_FILE_BROWSER  &kp F5  &kp F6   &kp F7   &kp F8   &trans
-&trans  &kp INSERT       &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT  &mkp MB5    &mmv MOVE_LEFT   &kp C_AL_WWW           &kp F1  &kp F2   &kp F3   &kp F4   &trans
-                         &none           &trans            &trans      &trans      &mmv MOVE_RIGHT  &trans                 &trans  &trans
-                                                                                   &trans
+&none   &kp INSERT  &kp K_PREVIOUS         &kp K_PLAY_PAUSE  &kp K_NEXT    &kp PRINTSCREEN    &mmv MOVE_UP     &none  &kp F9  &kp F10  &kp F11  &kp F12  &none
+&trans  &mkp MB4    &mkp LCLK              &mkp MCLK         &mkp RCLK     &mkp MB5           &mmv MOVE_DOWN   &none  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &none       &kp C_AL_FILE_BROWSER  &kp K_CALCULATOR  &kp C_AL_WWW  &none              &mmv MOVE_LEFT   &none  &kp F1  &kp F2   &kp F3   &kp F4   &trans
+                    &none                  &trans            &none         &none              &mmv MOVE_RIGHT  &none  &none   &trans
+                                                                                              &none
             >;
 
-            label = "FN";
+            label = "Functions";
             sensor-bindings = <&scroll_encoder>;
         };
 
-        Principal_mod1 {
+        Scroll {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_UP    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME       &trans  &trans  &trans  &trans  &trans  &trans
-                &mo 4   &trans  &trans  &trans    &kp END        &trans  &trans  &trans
-                                                  &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
-            label = "[DVORAK]";
-        };
-
-        Principal_mod2 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_EFR  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_EFF  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_SAD  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &none            &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans    &rgb_ug RGB_SAI  &trans  &trans  &trans
-                                                  &rgb_ug RGB_TOG
+                                                  &none
             >;
 
             sensor-bindings = <&rgb_encoder>;
-            label = "(DVORAK)";
+            label = "Scroll";
         };
 
         Bluetooth {
