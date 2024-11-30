@@ -162,6 +162,7 @@
         Caps {
             bindings = <&kp CAPS>;
             key-positions = <35 36>;
+            layers = <0>;
         };
 
         RAlt_1 {
@@ -176,10 +177,11 @@
 
         Del {
             bindings = <&kp DELETE>;
-            key-positions = <9 10>;
+            key-positions = <10 9>;
+            layers = <0>;
         };
 
-        Gui {
+        RGui {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <21 22>;
         };
@@ -187,11 +189,24 @@
         Menu {
             bindings = <&kp C_MENU>;
             key-positions = <15 16>;
+            layers = <0>;
         };
 
         Contex_menu {
             bindings = <&kp K_CONTEXT_MENU>;
             key-positions = <2 3>;
+            layers = <0>;
+        };
+
+        LGui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <17 16>;
+        };
+
+        Caps_word {
+            bindings = <&caps_word>;
+            key-positions = <28 29>;
+            layers = <0>;
         };
     };
 
