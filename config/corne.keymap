@@ -257,11 +257,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE               &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp AMPERSAND    &kp PAGE_UP    &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
-&mt LCTRL RA(QUESTION)  &kp PERCENT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp BACKSLASH    &kp PAGE_DOWN  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &mt RCTRL RA(NUMBER_1)
-&mt LEFT_SHIFT GRAVE    &kp EXCL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR   &kp PIPE         &kp HOME       &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
-                                      &none                 &none                  &none        &none            &kp END        &none      &none         &none
-                                                                                                                 &none
+&kp TILDE             &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET    &kp AMPERSAND    &kp PAGE_UP    &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
+&mt LCTRL RA(SLASH)   &kp PERCENT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp BACKSLASH    &kp PAGE_DOWN  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0        &mt RCTRL RA(NUMBER_1)
+&mt LEFT_SHIFT GRAVE  &kp EXCL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR   &kp PIPE         &kp HOME       &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HASH      &kp UNDERSCORE
+                                    &none                 &none                  &none        &none            &kp END        &none      &none         &none
+                                                                                                               &none
             >;
 
             label = "NUMERIC";
